@@ -1,0 +1,181 @@
+.header-background {
+    width: 680px;
+    height: 250px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    background: url(https://www.seekpng.com/png/full/838-8388925_portfolio-calligraphy.png);
+    }
+
+.navbar {
+    display: flex;
+    font-size: 25px;
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/*.navbar .menu {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}*/
+
+.navbar .link {
+    margin: 10px;
+    text-decoration: none;  
+    display: flex; 
+    text-align: right;
+}
+
+@media screen and (min-width: 576px) {
+    .navbar .link {
+        transition: color 0.4s linear;
+        color: grey;
+    }
+    .navbar .link:hover {
+        color: rgb(166, 218, 185)
+    }
+}
+
+.page-content {
+    margin-bottom: 40px;
+}
+
+.page-title{
+    background-color: antiquewhite;
+    height: 100px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: cadetblue;
+}
+
+.h1 {
+    font-weight: inherit;
+    letter-spacing: 0.3px;
+    font-size: 33px;
+    border-radius: 10px;
+    text-align: left;
+    color: grey;
+    margin-left: 1%;
+}
+
+.p {
+    letter-spacing: 0.1px;
+    font-size: 25px;
+    border-radius: 20px;
+    text-align: left;
+    color: grey;
+    margin-left: 1%;
+}
+
+.h2 {
+    font-weight: inherit;
+    letter-spacing: 0.3px;
+    font-size: 33px;
+    border-radius: 10px;
+    text-align: left;
+    color: grey;
+    margin-left: 1%;
+}
+
+.habilidades {
+    width: 700px;
+    margin: auto;
+    padding: 10px;
+    font-family: Tahoma;
+    font-size: 25px;
+    color: grey;
+    text-align: center;
+}
+.container {
+    width: 100%;
+    background-color: #ddd;
+}
+.skills {
+    text-align: right;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+.html {
+    background-color: rgb(223, 211, 198);
+    animation: fillhtml 2s forwards;
+    font-family: Tahoma;
+    font-size: 20px;
+    
+}
+.css {
+    background-color: rgb(200, 172, 137);
+    animation: fillcss 2s forwards;
+    font-family: Tahoma;
+    font-size: 20px;
+}
+.java {
+    background-color: rgb(169, 122, 64);
+    animation: filljava 2s forwards;
+    font-family: Tahoma;
+    font-size: 20px;
+}
+
+@keyframes fillhtml {
+    0%{width: 0;}
+    100%{width: 80%;}
+}
+@keyframes fillcss {
+    0%{width: 0;}
+    100%{width: 60%;}
+}
+@keyframes filljava {
+    0%{width: 0;}
+    100%{width: 10%;}
+}
+
+.questions {
+    letter-spacing: 0.1px;
+    font-size: 25px;
+    border-radius: 40px;
+    text-align: center;
+    color: grey;
+    margin-left: 1%;
+    font-size: 30px;
+}
+
+.questions .textarea {
+    width: 300px;
+    height: 100px;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: rgb(225, 225, 225);
+    font-style: var(--main-cursive--);
+    text-align: center;
+    color: grey;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.footer img {
+        width: 40px;
+        padding: 10px;
+
+}
+
+.footer-links {
+    margin: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: Tahoma;
+    color: grey;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="/reset.css">
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <header class="header-background"></header>
+    <br>
+    <br>
+    <br>
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a class="link" href="#page-title">About me</a>
+            </li>
+            <li>
+                <a class="link" href="">Skills</a>
+            </li>
+            <li>
+                <a class="link" href="">Contact</a>
+            </li>
+        </ul> 
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <main class="page-content">
+        <div class="page-title">
+            <h1>About me</h1>
+        </div>
+    <br>
+    <br>
+    <h1 class="h1">Natalia García Pilotto</h1>
+    <br>
+    <br>
+    <p class="p">Hi! Im Nati. Im currently learning HTML and CSS in a KeepCoding Bootcamp. I consider myself to be a determined, active and curious person. My experiences have encouraged me to become an open-minded women, willing to take on new challenges.
+        All the way throughout my life, i have always put myself realistic -yet ambitious- targets, which i knew i could achieve, even if this required hard work. I enjoy working with teams, I am never afraid of taking over new responsibilities and I am eager to learn from others.</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+        <div class="page-title">
+            <h1>Skills</h1>
+        </div>
+        <br>
+        <br>
+        <h1 class="h1">My current skills</h1>
+        <br>
+        <br>
+        </div>
+        <div class="habilidades">
+            <p>HTML</p>
+            <div class="container"></div>
+                <div class="skills html">80%</div>
+                <br>
+                <br>
+            <p>CSS</p>
+            <div class="container"></div>
+                <div class="skills css">60%</div>  
+                <br>
+                <br>  
+            <p>JAVASCRIPT</p>
+            <div class="container"></div>
+                <div class="skills java">10%</div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="page-title">
+            <h1>Contact</h1>
+        </div>
+        <br>
+        <br>
+    <div class="questions-settings">
+        <form class="questions" action="register-completed.html">
+            <div>
+                <label for="name">Name</label> <!-- este for hace que el label nombre aplique a name, y para esto tmb necesita un ID= en el input-->
+                <input id="name" name="name" type="text" placeholder="Marta"> <!--el label va SIEMPRE acompañado de INPUT.---------- el Placeholder es la letra transparente dentro de la casilla a completar-->
+            </div>
+            <br>
+            <div>
+                <label for="surname">Surname</label> <!-- este for hace que el label nombre aplique a name, y para esto tmb necesita un ID= en el input-->
+                <input id="surname" name="surname" type="text" placeholder="Rodriguez"> <!--el label va SIEMPRE acompañado de INPUT.---------- el Placeholder es la letra transparente dentro de la casilla a completar-->
+            </div>
+            <br>
+            <div>
+                <label for="phone">Phone number</label>
+                <input id="phone" name="phone" type="number" placeholder="+34">
+            </div>
+            <br>
+            <div>
+                <label for="github">GitHub username</label>
+                <input id="github" name="github" type="text" placeholder="@Marta.Rodriguez">
+            </div>
+            <br>
+            <fieldset>
+                <legend>How do you know me?</legend>
+                <br>
+                <label for="uni">University</label>
+                <input required id="uni" type="radio" name="how" value="uin">
+    
+                <label for="kc">Keepcoding kick-off</label>
+                <input required id="kc" type="radio" name="how" value="kc">
+    
+                <label for="School">School</label>
+                <input required id="School" type="radio" name="how" value="School">
+
+                <label for="gh">GitHub</label>
+                <input required id="gh" type="radio" name="how" value="gh">
+
+            </fieldset>
+            <br>
+            <br>
+            <label for="descrip">Description</label>
+            <textarea class="textarea" required rows="3" placeholder="max 180 characters" maxlength="180" id="descrip"></textarea>   
+            <br>
+            <br>
+            <input class="questions" type="submit" name="send" value="Send"> <!-- boton de submit/enviar al final del form-->
+        </form>
+    </div>
+    </main>
+    <footer>
+        <nav class="footer">
+            <img src="https://www.seekpng.com/png/full/8-84419_linkedin-logo-png-icon-linkedin-logo-png.png" alt="linkedin">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="facebook">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Twitter-logo.svg" alt="twitter">
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github">
+        <nav class="footer">
+            <a class="footer-links" href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            <a class="footer-links" href="https://www.facebook.com/"  target="_blank">Facebook</a>
+            <a class="footer-links" href="https://twitter.com/"  target="_blank">Twitter</a>
+            <a class="footer-links" href="https://github.com/"  target="_blank">GitHub</a>
+        </nav>
+    </footer>
+</body>
+</html>
